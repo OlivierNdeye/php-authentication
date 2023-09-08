@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-image: url(./assets/09-TelaDesktop.png);
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #55B3F8B2;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+p {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #0D5386;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 80px;
+   border-radius: 50px;
+   width: 724px;
+   height: 658px;
+   color: #ffffff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.login-form input {
+    width: 528px;
+    height: 86px;
+    margin-top: 10px;
+    font-size: 32px;
+    flex-shrink: 0;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.login-form .enviar {
+    width: 306px;
+    height: 87px;
+    background-color: #0D99FF;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    color: #ffffff;
+}
+button:hover {
+    background-color: #17a2b8;
+}
